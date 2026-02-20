@@ -1,7 +1,7 @@
 a=input("Entrez une lettre svp :")
-if ord(a) >= ord("a") and ord(a) <= ord("z"):
-    print ("Minuscule")
-elif ord(a) >= ord("A") and ord(a) <= ord("Z"):
-    print("MAJUSCULE")
+if "a" <= a <= "z":
+    print ("C'est une minuscule")
+elif  "A" <= a <= "Z":
+    print("C'est une majuscule")
 else:
-    print("C'est pas une lettre")
+    print("C'est un symbole")
