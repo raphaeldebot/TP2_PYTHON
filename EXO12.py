@@ -12,4 +12,15 @@ for i in range(nb_chiffres):
     nombreInverse = nombreInverse * 10 + chiffre
     nombre = nombre // 10
     
+print(type(nombreInverse))
 print(nombreInverse)
+
+
+# Correction
+
+n=input("Faites intrer un nombre svp")
+char=""
+for c in n:
+     char=c+char
+
+print(char)

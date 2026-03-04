@@ -12,3 +12,4 @@ for c in nombreInput2:
 
 
 print(res1 + res2)
+

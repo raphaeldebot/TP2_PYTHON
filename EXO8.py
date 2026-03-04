@@ -10,5 +10,5 @@ for c in nombre:
 
 
 print(resint)
-print(resord)
+print (resord)
 print(nombre)
